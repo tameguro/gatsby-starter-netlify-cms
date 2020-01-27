@@ -72,6 +72,13 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end has-text-centered">
               <a
+                href="https://tameguro.booth.pm/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                  <img src="https://asset.booth.pm/static-images/banner/200x40_01.png" />
+              </a>
+              <a
                 className="navbar-item"
                 href="https://github.com/tameguro"
                 target="_blank"
