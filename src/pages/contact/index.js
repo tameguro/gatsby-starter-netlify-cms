@@ -39,7 +39,8 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1>ご連絡フォーム</h1>
+              <h2>ご意見・ご感想はこちらのフォームからも受け付けております。すべての入力欄は必須です。</h2>
               <form
                 name="contact"
                 method="post"
@@ -58,7 +59,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'name'}>
-                    Your name
+                    お名前
                   </label>
                   <div className="control">
                     <input
@@ -73,7 +74,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
-                    Email
+                    メールアドレス
                   </label>
                   <div className="control">
                     <input
@@ -88,7 +89,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Message
+                    メッセージ
                   </label>
                   <div className="control">
                     <textarea
